@@ -112,6 +112,46 @@
   top: 12px;
 }
 
+/* ---- Trust marquee (hero status strip) ----
+   Seamless loop: the track holds two identical copies, so translating by
+   -50% shifts exactly one copy. `.reverse` moves it left → right. */
+.marquee {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: marquee-x 38s linear infinite;
+}
+.marquee-track.reverse {
+  animation-direction: reverse;
+}
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 /* ---- Marker draw (CSS fallback used outside MarkerHighlight) ---- */
 .marker-path {
   stroke-dasharray: 1;
@@ -128,6 +168,10 @@
   .marker-path {
     animation: none;
     stroke-dashoffset: 0;
+  }
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
   }
   html {
     scroll-behavior: auto;
