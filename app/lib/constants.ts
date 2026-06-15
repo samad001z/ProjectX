@@ -22,3 +22,18 @@ export const NAV_LINKS = [
   { href: "#work", label: "Work" },
   { href: "#pricing", label: "Pricing" },
 ];
+
+/* In-page anchors for the /business page. */
+export const BUSINESS_NAV_LINKS = [
+  { href: "#catalog", label: "Solutions" },
+  { href: "#pricing", label: "Pricing" },
+];
+
+/* Opening line for businesses reaching out on WhatsApp. */
+export const BUSINESS_WHATSAPP_MESSAGE =
+  "Hi ProjeX, I run a business and I'm interested in your software solutions. Can we discuss?";
+
+/** Format whole rupees as ₹14,999 (Indian digit grouping). */
+export function formatINR(amount: number): string {
+  return `₹${amount.toLocaleString("en-IN")}`;
+}

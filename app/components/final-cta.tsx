@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MessageCircle, ArrowRight } from "lucide-react";
 import { Container } from "./ui/container";
 import { Button } from "./ui/button";
@@ -58,6 +59,16 @@ export function FinalCta() {
             >
               {CONTACT_EMAIL}
             </a>
+          </p>
+
+          <p className="mt-8 font-mono text-[13px] text-muted">
+            Run a business?{" "}
+            <Link
+              href="/business"
+              className="text-primary underline-offset-4 transition-colors hover:underline"
+            >
+              See our solutions →
+            </Link>
           </p>
         </Reveal>
       </Container>

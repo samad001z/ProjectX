@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Van Lavino QR ordering preview" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#fbfaf6"/>
+  <g stroke="#e7e3da" stroke-width="1" opacity="0.7">
+    <path d="M0 26H1200M0 52H1200M0 78H1200M0 104H1200M0 130H1200M0 156H1200M0 182H1200M0 208H1200M0 234H1200M0 260H1200M0 286H1200M0 312H1200M0 338H1200M0 364H1200M0 390H1200M0 416H1200M0 442H1200M0 468H1200M0 494H1200M0 520H1200M0 546H1200M0 572H1200M0 598H1200M0 624H1200M0 650H1200M0 676H1200M0 702H1200M0 728H1200"/>
+  </g>
+  <!-- counter / dashboard window behind -->
+  <rect x="470" y="120" width="640" height="470" rx="18" fill="#ffffff" stroke="#e7e3da"/>
+  <rect x="470" y="120" width="640" height="52" rx="18" fill="#ffffff" stroke="#e7e3da"/>
+  <circle cx="500" cy="146" r="5" fill="#e7e3da"/><circle cx="518" cy="146" r="5" fill="#e7e3da"/><circle cx="536" cy="146" r="5" fill="#e7e3da"/>
+  <text x="566" y="151" font-size="15" fill="#6b6862" font-family="ui-monospace, monospace">van-lavino · counter</text>
+  <text x="500" y="218" font-size="14" fill="#6b6862" font-family="ui-monospace, monospace">TODAY</text>
+  <text x="500" y="262" font-size="42" font-weight="700" fill="#16150f">₹18,420</text>
+  <rect x="500" y="300" width="580" height="1" fill="#e7e3da"/>
+  <g>
+    <rect x="500" y="320" width="580" height="56" rx="10" fill="#fbfaf6" stroke="#e7e3da"/>
+    <circle cx="528" cy="348" r="10" fill="#ffb020"/><text x="522" y="353" font-size="13" font-weight="700" fill="#16150f">7</text>
+    <text x="552" y="344" font-size="15" fill="#16150f">Table 7 · Cold brew, Croissant</text>
+    <text x="552" y="364" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">paid · ₹430</text>
+    <text x="1040" y="353" font-size="13" fill="#2b2bf5" font-family="ui-monospace, monospace" text-anchor="end">new</text>
+  </g>
+  <g>
+    <rect x="500" y="388" width="580" height="56" rx="10" fill="#fbfaf6" stroke="#e7e3da"/>
+    <circle cx="528" cy="416" r="10" fill="#e7e3da"/><text x="522" y="421" font-size="13" font-weight="700" fill="#16150f">3</text>
+    <text x="552" y="412" font-size="15" fill="#16150f">Table 3 · Cappuccino x2</text>
+    <text x="552" y="432" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">paid · ₹260</text>
+  </g>
+  <g>
+    <rect x="500" y="456" width="580" height="56" rx="10" fill="#fbfaf6" stroke="#e7e3da"/>
+    <circle cx="528" cy="484" r="10" fill="#e7e3da"/><text x="522" y="489" font-size="13" font-weight="700" fill="#16150f">9</text>
+    <text x="552" y="480" font-size="15" fill="#16150f">Table 9 · Pasta, Lemonade</text>
+    <text x="552" y="500" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">paid · ₹520</text>
+  </g>
+  <!-- phone in front -->
+  <rect x="120" y="150" width="290" height="470" rx="34" fill="#ffffff" stroke="#16150f" stroke-width="2"/>
+  <rect x="120" y="150" width="290" height="470" rx="34" fill="none" stroke="#e7e3da"/>
+  <rect x="225" y="170" width="80" height="9" rx="4.5" fill="#e7e3da"/>
+  <rect x="148" y="206" width="234" height="120" rx="12" fill="#fbfaf6" stroke="#e7e3da"/>
+  <!-- QR -->
+  <g fill="#16150f">
+    <rect x="170" y="228" width="58" height="58"/>
+    <rect x="178" y="236" width="42" height="42" fill="#fbfaf6"/>
+    <rect x="186" y="244" width="26" height="26" fill="#16150f"/>
+  </g>
+  <text x="250" y="244" font-size="14" font-weight="700" fill="#16150f">Scan to order</text>
+  <text x="250" y="266" font-size="12" fill="#6b6862">Table 7</text>
+  <text x="250" y="298" font-size="11" fill="#6b6862" font-family="ui-monospace, monospace">no app needed</text>
+  <text x="148" y="364" font-size="13" font-weight="700" fill="#16150f">Cold Brew</text>
+  <text x="382" y="364" font-size="13" fill="#16150f" text-anchor="end">₹220</text>
+  <rect x="148" y="380" width="234" height="1" fill="#e7e3da"/>
+  <text x="148" y="406" font-size="13" font-weight="700" fill="#16150f">Croissant</text>
+  <text x="382" y="406" font-size="13" fill="#16150f" text-anchor="end">₹210</text>
+  <rect x="148" y="422" width="234" height="1" fill="#e7e3da"/>
+  <rect x="148" y="540" width="234" height="48" rx="24" fill="#2b2bf5"/>
+  <text x="265" y="570" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Pay with Razorpay</text>
+</svg>

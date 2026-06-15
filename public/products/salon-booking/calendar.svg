@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Salon weekly calendar" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#fbfaf6"/>
+  <rect x="60" y="60" width="1080" height="630" rx="16" fill="#ffffff" stroke="#e7e3da"/>
+  <text x="90" y="112" font-size="24" font-weight="700" fill="#16150f">This week</text>
+  <text x="90" y="136" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">aisha · stylist</text>
+  <!-- day columns -->
+  <g font-family="ui-monospace, monospace" font-size="12" fill="#6b6862">
+    <text x="240" y="180">MON</text><text x="380" y="180">TUE</text><text x="520" y="180">WED</text><text x="660" y="180">THU</text><text x="800" y="180">FRI</text><text x="940" y="180">SAT</text>
+  </g>
+  <line x1="90" y1="196" x2="1110" y2="196" stroke="#e7e3da"/>
+  <!-- time rows -->
+  <g font-family="ui-monospace, monospace" font-size="12" fill="#6b6862">
+    <text x="100" y="246">10:00</text><text x="100" y="326">12:00</text><text x="100" y="406">2:00</text><text x="100" y="486">4:00</text><text x="100" y="566">6:00</text>
+  </g>
+  <g stroke="#f1efe8"><line x1="180" y1="276" x2="1110" y2="276"/><line x1="180" y1="356" x2="1110" y2="356"/><line x1="180" y1="436" x2="1110" y2="436"/><line x1="180" y1="516" x2="1110" y2="516"/></g>
+  <!-- appointments -->
+  <rect x="200" y="212" width="120" height="74" rx="8" fill="#eef0ff" stroke="#2b2bf5" stroke-opacity="0.3"/><text x="212" y="238" font-size="12" font-weight="700" fill="#2b2bf5">Color</text><text x="212" y="256" font-size="11" fill="#6b6862">Priya</text>
+  <rect x="480" y="292" width="120" height="58" rx="8" fill="#fff3dd" stroke="#ffb020" stroke-opacity="0.4"/><text x="492" y="318" font-size="12" font-weight="700" fill="#9a6a05">Cut</text><text x="492" y="336" font-size="11" fill="#6b6862">Aman</text>
+  <rect x="760" y="372" width="120" height="74" rx="8" fill="#edf6ee" stroke="#3a7a43" stroke-opacity="0.35"/><text x="772" y="398" font-size="12" font-weight="700" fill="#3a7a43">Style</text><text x="772" y="416" font-size="11" fill="#6b6862">Neha</text>
+  <rect x="620" y="452" width="120" height="58" rx="8" fill="#eef0ff" stroke="#2b2bf5" stroke-opacity="0.3"/><text x="632" y="478" font-size="12" font-weight="700" fill="#2b2bf5">Beard</text><text x="632" y="496" font-size="11" fill="#6b6862">Karan</text>
+  <rect x="900" y="212" width="120" height="74" rx="8" fill="#fff3dd" stroke="#ffb020" stroke-opacity="0.4"/><text x="912" y="238" font-size="12" font-weight="700" fill="#9a6a05">Spa</text><text x="912" y="256" font-size="11" fill="#6b6862">Riya</text>
+  <!-- empty bookable slot highlighted -->
+  <rect x="340" y="372" width="120" height="58" rx="8" fill="#fbfaf6" stroke="#e7e3da" stroke-dasharray="4 4"/><text x="400" y="406" font-size="12" fill="#b8b4ab" text-anchor="middle">free</text>
+</svg>

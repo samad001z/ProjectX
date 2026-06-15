@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Local business portfolio gallery" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#fbfaf6"/>
+  <text x="80" y="100" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">SELECTED WORK</text>
+  <text x="80" y="150" font-size="38" font-weight="700" fill="#16150f">A few recent pieces</text>
+  <!-- gallery grid -->
+  <g stroke="#e7e3da">
+    <rect x="80" y="200" width="340" height="220" rx="14" fill="#f1ede4"/>
+    <rect x="440" y="200" width="340" height="220" rx="14" fill="#ece6da"/>
+    <rect x="800" y="200" width="320" height="220" rx="14" fill="#f1ede4"/>
+    <rect x="80" y="440" width="340" height="220" rx="14" fill="#ece6da"/>
+    <rect x="440" y="440" width="340" height="220" rx="14" fill="#f1ede4"/>
+    <rect x="800" y="440" width="320" height="220" rx="14" fill="#ece6da"/>
+  </g>
+  <!-- simple shapes inside tiles -->
+  <path d="M80 380 L180 310 L260 360 L340 300 L420 350 V420 H80 Z" fill="#e3ddd0"/>
+  <path d="M440 380 L540 320 L640 370 L720 320 L780 360 V420 H440 Z" fill="#ddd6c8"/>
+  <path d="M800 380 L880 330 L980 380 L1060 330 L1120 365 V420 H800 Z" fill="#e3ddd0"/>
+  <path d="M80 620 L180 560 L280 610 L360 560 L420 600 V660 H80 Z" fill="#ddd6c8"/>
+  <path d="M440 620 L540 555 L640 610 L720 560 L780 600 V660 H440 Z" fill="#e3ddd0"/>
+  <path d="M800 620 L880 565 L980 615 L1060 565 L1120 600 V660 H800 Z" fill="#ddd6c8"/>
+  <circle cx="360" cy="252" r="22" fill="#ffb020" opacity="0.65"/>
+  <circle cx="1070" cy="492" r="22" fill="#ffb020" opacity="0.65"/>
+  <!-- captions -->
+  <g font-size="13" fill="#16150f" font-weight="600">
+    <text x="96" y="412">Walnut dining table</text>
+    <text x="456" y="412">Café bar seating</text>
+    <text x="816" y="412">Floating shelves</text>
+  </g>
+</svg>

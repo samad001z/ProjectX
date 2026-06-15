@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Local business landing page" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#ffffff"/>
+  <!-- nav -->
+  <text x="80" y="80" font-size="20" font-weight="800" fill="#16150f">Maple &amp; Co.</text>
+  <g font-size="14" fill="#6b6862"><text x="780" y="80">Work</text><text x="860" y="80">About</text><text x="940" y="80">Contact</text></g>
+  <rect x="1020" y="60" width="110" height="34" rx="17" fill="#2b2bf5"/><text x="1075" y="82" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">WhatsApp</text>
+  <line x1="80" y1="104" x2="1120" y2="104" stroke="#e7e3da"/>
+  <!-- hero -->
+  <text x="80" y="200" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">HANDMADE FURNITURE · PUNE</text>
+  <text x="80" y="268" font-size="58" font-weight="700" fill="#16150f">Built by hand.</text>
+  <text x="80" y="334" font-size="58" font-weight="700" fill="#16150f">Made to last.</text>
+  <rect x="80" y="350" width="380" height="160" rx="14" fill="#fbfaf6" stroke="#e7e3da"/>
+  <text x="104" y="392" font-size="15" fill="#6b6862">Custom tables, shelves, and seating</text>
+  <text x="104" y="416" font-size="15" fill="#6b6862">for homes and cafés across the city.</text>
+  <rect x="104" y="440" width="170" height="48" rx="24" fill="#16150f"/><text x="189" y="470" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Get a quote</text>
+  <!-- hero image -->
+  <rect x="640" y="150" width="480" height="380" rx="16" fill="#f1ede4" stroke="#e7e3da"/>
+  <path d="M640 470 L780 350 L900 430 L1010 320 L1120 400 V530 H640 Z" fill="#e3ddd0"/>
+  <circle cx="1000" cy="250" r="40" fill="#ffb020" opacity="0.7"/>
+  <!-- trust row -->
+  <line x1="80" y1="580" x2="1120" y2="580" stroke="#e7e3da"/>
+  <g font-size="14" fill="#6b6862" font-family="ui-monospace, monospace">
+    <text x="80" y="640">★ 4.9 on Google</text>
+    <text x="360" y="640">200+ pieces made</text>
+    <text x="640" y="640">7-day delivery</text>
+    <text x="900" y="640">1-year warranty</text>
+  </g>
+</svg>

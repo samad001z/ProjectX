@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Salon appointments list" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="1200" height="750" fill="#fbfaf6"/>
+  <rect x="60" y="60" width="1080" height="630" rx="16" fill="#ffffff" stroke="#e7e3da"/>
+  <text x="90" y="112" font-size="24" font-weight="700" fill="#16150f">Today&#8217;s appointments</text>
+  <text x="90" y="136" font-size="13" fill="#6b6862" font-family="ui-monospace, monospace">12 booked · 1 free slot</text>
+  <line x1="90" y1="160" x2="1110" y2="160" stroke="#e7e3da"/>
+  <g font-size="15">
+    <!-- row template -->
+    <text x="90" y="216" font-family="ui-monospace, monospace" font-size="14" fill="#6b6862">10:00</text>
+    <circle cx="220" cy="210" r="16" fill="#eef0ff"/><text x="220" y="215" font-size="13" font-weight="700" fill="#2b2bf5" text-anchor="middle">P</text>
+    <text x="252" y="206" font-weight="700" fill="#16150f">Priya Sharma</text><text x="252" y="226" font-size="13" fill="#6b6862">Hair color · with Aisha</text>
+    <rect x="980" y="194" width="92" height="26" rx="13" fill="#edf6ee"/><text x="1026" y="211" font-size="11" font-weight="700" fill="#3a7a43" text-anchor="middle">CONFIRMED</text>
+    <line x1="90" y1="252" x2="1110" y2="252" stroke="#f1efe8"/>
+
+    <text x="90" y="306" font-family="ui-monospace, monospace" font-size="14" fill="#6b6862">11:30</text>
+    <circle cx="220" cy="300" r="16" fill="#fff3dd"/><text x="220" y="305" font-size="13" font-weight="700" fill="#9a6a05" text-anchor="middle">A</text>
+    <text x="252" y="296" font-weight="700" fill="#16150f">Aman Verma</text><text x="252" y="316" font-size="13" fill="#6b6862">Haircut · with Rohit</text>
+    <rect x="980" y="284" width="92" height="26" rx="13" fill="#fff3dd"/><text x="1026" y="301" font-size="11" font-weight="700" fill="#9a6a05" text-anchor="middle">REMINDED</text>
+    <line x1="90" y1="342" x2="1110" y2="342" stroke="#f1efe8"/>
+
+    <text x="90" y="396" font-family="ui-monospace, monospace" font-size="14" fill="#6b6862">1:00</text>
+    <circle cx="220" cy="390" r="16" fill="#edf6ee"/><text x="220" y="395" font-size="13" font-weight="700" fill="#3a7a43" text-anchor="middle">N</text>
+    <text x="252" y="386" font-weight="700" fill="#16150f">Neha Iyer</text><text x="252" y="406" font-size="13" fill="#6b6862">Spa + style · with Meera</text>
+    <rect x="980" y="374" width="92" height="26" rx="13" fill="#edf6ee"/><text x="1026" y="391" font-size="11" font-weight="700" fill="#3a7a43" text-anchor="middle">CONFIRMED</text>
+    <line x1="90" y1="432" x2="1110" y2="432" stroke="#f1efe8"/>
+
+    <text x="90" y="486" font-family="ui-monospace, monospace" font-size="14" fill="#6b6862">2:30</text>
+    <rect x="196" y="468" width="700" height="44" rx="10" fill="#fbfaf6" stroke="#e7e3da" stroke-dasharray="5 4"/>
+    <text x="252" y="495" font-size="14" fill="#b8b4ab">Free slot — open for booking</text>
+    <line x1="90" y1="532" x2="1110" y2="532" stroke="#f1efe8"/>
+
+    <text x="90" y="586" font-family="ui-monospace, monospace" font-size="14" fill="#6b6862">4:00</text>
+    <circle cx="220" cy="580" r="16" fill="#eef0ff"/><text x="220" y="585" font-size="13" font-weight="700" fill="#2b2bf5" text-anchor="middle">K</text>
+    <text x="252" y="576" font-weight="700" fill="#16150f">Karan Mehta</text><text x="252" y="596" font-size="13" fill="#6b6862">Beard trim · with Rohit</text>
+    <rect x="988" y="564" width="84" height="26" rx="13" fill="#eef0ff"/><text x="1030" y="581" font-size="11" font-weight="700" fill="#2b2bf5" text-anchor="middle">DEPOSIT</text>
+  </g>
+</svg>
