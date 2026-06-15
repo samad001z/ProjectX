@@ -99,26 +99,48 @@ export function BusinessHero() {
         </motion.div>
       </Container>
 
+      {/* Proof strip: a gentle left-to-right marquee, matching the student home.
+          Reduced-motion users get the same items, static and wrapped. */}
       <motion.div
         initial={reduce ? false : { opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: reduce ? 0 : 0.5, duration: 0.5 }}
         className="relative border-t border-line bg-paper/40"
       >
-        <Container>
-          <ul className="flex flex-wrap items-center gap-x-3 gap-y-1 py-4 font-mono text-[13px] text-muted">
-            {proof.map((label, i) => (
-              <li key={label} className="flex items-center gap-3">
-                {i > 0 && (
-                  <span aria-hidden className="text-line">
-                    ·
-                  </span>
-                )}
-                {label}
-              </li>
-            ))}
-          </ul>
-        </Container>
+        {reduce ? (
+          <Container>
+            <ul className="flex flex-wrap items-center gap-x-6 gap-y-1 py-4 text-[14.5px] font-medium text-ink/75">
+              {proof.map((label, i) => (
+                <li key={label} className="flex items-center gap-6">
+                  {i > 0 && (
+                    <span aria-hidden className="size-1.5 rounded-full bg-primary/50" />
+                  )}
+                  {label}
+                </li>
+              ))}
+            </ul>
+          </Container>
+        ) : (
+          <div className="marquee overflow-hidden py-4">
+            <ul
+              aria-label="What you get"
+              className="marquee-track reverse items-center"
+            >
+              {[0, 1].map((copy) =>
+                proof.map((label) => (
+                  <li
+                    key={`${copy}-${label}`}
+                    aria-hidden={copy === 1}
+                    className="flex items-center gap-6 pr-6 text-[14.5px] font-medium tracking-tight text-ink/75"
+                  >
+                    <span aria-hidden className="size-1.5 rounded-full bg-primary/50" />
+                    {label}
+                  </li>
+                )),
+              )}
+            </ul>
+          </div>
+        )}
       </motion.div>
     </section>
   );
