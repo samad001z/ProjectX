@@ -11,6 +11,7 @@ const trustItems = [
   "fresh non-repeated code",
   "viva prep",
   "milestone payment",
+  "negotiable pricing",
 ];
 
 export function Hero() {

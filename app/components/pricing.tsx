@@ -93,15 +93,20 @@ export function Pricing() {
               <p className="mt-1.5 text-[14px] leading-relaxed text-muted">
                 {tier.scope}
               </p>
-              <p
-                className={cn(
-                  "mt-5 font-display text-2xl font-bold",
-                  tier.emphasis ? "text-primary" : "text-ink",
-                )}
-              >
-                {rupee(tier.low)} <span className="text-muted">-</span>{" "}
-                {rupee(tier.high)}
-              </p>
+              <div className="mt-5 flex flex-wrap items-center gap-x-2.5 gap-y-1.5">
+                <p
+                  className={cn(
+                    "font-display text-2xl font-bold",
+                    tier.emphasis ? "text-primary" : "text-ink",
+                  )}
+                >
+                  {rupee(tier.low)} <span className="text-muted">-</span>{" "}
+                  {rupee(tier.high)}
+                </p>
+                <span className="rounded-full border border-primary/30 bg-primary/5 px-2.5 py-0.5 font-mono text-[11px] font-medium text-primary">
+                  negotiable
+                </span>
+              </div>
               <ul className="mt-5 space-y-1.5">
                 {tier.includes.map((inc) => (
                   <li
